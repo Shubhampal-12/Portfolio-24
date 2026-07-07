@@ -9,22 +9,22 @@ function Contact({ need }) {
     {
       name: "LinkedIn",
       icon: <FaLinkedinIn />,
-      link: "https://www.linkedin.com/in/swaraj-singh-47aa682a6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      link: "https://www.linkedin.com/in/shubhampal15",
     },
     {
       name: "Instagram",
       icon: <FaInstagram />,
-      link: "https://www.instagram.com/swarajsingh._/profilecard/?igsh=dzYxdHhiNzA5NG41",
+      link: "https://www.instagram.com/shubhampal848/",
     },
     {
       name: "Github",
       icon: <FaGithub />,
-      link: "https://github.com/Swaraj269",
+      link: "https://github.com/Shubhampal-12",
     },
   ];
   useEffect(() => {}, [need]);
   return (
-    <div className="h-screen w-full relative">
+    <div className="h-screen w-full relative" id="contact">
       <div className="bgimage pointer-events-none h-full absolute z-[-1] w-full  ">
         <img
           className="h-full w-full object-cover"
@@ -121,15 +121,15 @@ function Contact({ need }) {
             })}
           </div>
           <h2 className="text-white mt-4 md:mt-6 md:text-4xl lg:mt-8 text-2xl lg:text-3xl">
-            Feel free to reach out for collabs or opportunities!
+             Hire Me 
           </h2>
           <a
-            href="mailto:swarajsingh494@gmail.com"
+            href="mailto:shubhampal91324@gmail.com "
             className="show flex w-fit text-2xl mt-6 md:mt-8 lg:mt-6 lg:text-3xl gap-4 md:gap-4 lg:gap-6 rounded-full items-center text-black bg-white lg:py-2 py-1  px-6 lg:px-8 "
           >
             <div className="dot2 md:h-3 h-2 w-2 md:w-3 "></div>
             <div className="skillset">
-              <h2 className="font-[satoshiregular]">SayHello@gmail.com</h2>
+              <h2 className="font-[satoshiregular]">shubhampal91324@gmail.com</h2>
             </div>
           </a>
         </div>
